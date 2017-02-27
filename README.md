@@ -11,47 +11,47 @@ Download the script to make changes. Then include the script in your page just a
 
 ###Options
 
-*adTags:* 
+**adTags:**
 
 Ad tags to write to modal. if it returns null "theContent" will be written to modal.
 
-*theContent:*
+**theContent:**
 
 This is the actual HTML content for the modal.
 
 _i.e. `'<h2> My Name is Earl </h2>'`_
 
-*cookieName:*
+**cookieName:**
 
 Custom name of the cookie. Unique for each site. 
 
 i.e. `"CustomNameOfCookie_DomainDependent"`
 
-*totalNumberOfPages:*
+**totalNumberOfPages:**
 
 How many page views do you want until it launches? 
 
 i.e. `2`
 
-*cookieLife:*
+**cookieLife:**
 
 How long should the cookie stay alive? (in days) 
 
 i.e. `7`
 
-*desktopOnly:*
+**desktopOnly:**
 
 Only show on desktop? 
 
 i.e. `true`
 
-*debug:*
+**debug:**
 
 A toggle to display console messages. Set to 'true' to view debug messages. 
 
 i.e. `true`
 
-*customModalClass:*
+**customModalClass:**
 
 Give the modal a custom class. 
 
